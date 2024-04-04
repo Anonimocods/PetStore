@@ -1,225 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PodStore</title>
-    <link rel="stylesheet" href="./estilo/global.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./estilo/global.css" />
+  </head>
+  <body>
+
     <div class="navbar show-menu">
-        
-        <div class="header-inner-content">
-            <h1 class="logo">Pet<span>Store</span></h1>
-        </div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Produtos</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-                <li>Conta</li>
-            </ul>
-        </nav>
-        <div class="nav-icon-container">
-            <img src="./imagens/cart.png">
-            <img src="./imagens/menu.png" class="menu-button">
-        </div>
+      <div class="header-inner-content">
+        <h1 class="logo">Pet<span>Store</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Produtos</li>
+          <li>Sobre</li>
+          <li>Contato</li>
+          <li>Conta</li>
+        </ul>
+      </nav>
+      <div class="nav-icon-container">
+        <img src="./imagens/cart.png" />
+        <img src="./imagens/menu.png" class="menu-button" />
+      </div>
     </div>
     <header>
-        <div class="header-inner-content"></div>
-        <div class="header-bottom-side">
-            <div class="header-bottom-side-left">
-                <h2>Deixe um Novo Sabor para o seu pet!</h2>
-                <p>Sucesso nem sempre tem haver com grandeza. Tem haver
-                    com consistência. Trabalho duro Consistente supera o sucesso.
-                    A grandeza virá.
-                </p>
-                <button>Ver Agora &#8594;</button>
-            </div>
-            <div class="header-bottom-side-right">
-                <img src="./imagens/pet-ilustre-removebg-preview.png">
-            </div>
+      <div class="header-inner-content"></div>
+      <div class="header-bottom-side">
+        <div class="header-bottom-side-left">
+          <h2>Deixe um Novo Sabor para o seu pet!</h2>
+          <p>
+            Sucesso nem sempre tem haver com grandeza. Tem haver com
+            consistência. Trabalho duro Consistente supera o sucesso. A grandeza
+            virá.
+          </p>
+          <button>Ver Agora &#8594;</button>
         </div>
+        <div class="header-bottom-side-right">
+          <img src="./imagens/pet-ilustre-removebg-preview.png" />
+        </div>
+      </div>
     </header>
-
-    <script>
-        const navbar = document.querySelector(".navbar");
-        const menuButton = document.querySelector(".menu-button");
-
-        menuButton.addEventListener("click", () => {
-            navbar.classList.toggle("show-menu");
-        });
-
-
-    </script>
-
-    <!--Main Contenttt-->
+    <!--Main Contentt-->
     <main>
-        <div class="gray-background">
-            <div class="page-inner-content">
-                <div class="cols cols-3">
-                    <img src="./imagens/pet-destaque.png" width="316px" alt="">
-                    <img src="./imagens/pestisco-destaque.png" width="316px" alt="">
-                    <img src="./imagens/gato-racao-ilustre.jpg" width="316px" alt="">
-                </div>
+      <div class="gray-background">
+        <div class="page-inner-content">
+          <div class="cols cols-3">
+            <img src="./imagens/pet-destaque.png" width="316px" alt="" />
+            <img src="./imagens/pestisco-destaque.png" width="316px" alt="" />
+            <img src="./imagens/gato-racao-ilustre.jpg" width="316px" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="page-inner-content">
+          <h3 class="selection-title">Produtos Selecionados</h3>
+          <div class="subtitulo-underline"></div>
+          <div class="cols cols-4">
+            <div class="product">
+              <img
+                src="./imagens/Racao_KITKAT_70GR-removebg-preview.png"
+                width="161px"
+                alt=""
+              />
+              <p class="product-name">Ração KiteKat</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p class="product-price"><span>R$</span>45,00</p>
             </div>
+            <div class="product">
+              <img
+                src="./imagens/racao_premier_adulto-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração Premier Formula</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="product-price"><span>R$</span>130,00</p>
+            </div>
+            <div class="product">
+              <img
+                src="./imagens/Racao-Golden-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração Golden Formula</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p class="product-price"><span>R$</span>119,99</p>
+            </div>
+            <div class="product">
+              <img
+                src="./imagens/racao_whiskas-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração Whiskas</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="product-price"><span>R$</span>95,00</p>
+            </div>
+          </div>
         </div>
 
-        <div>
-            <div class="page-inner-content">
-                <h3 class="selection-title">Produtos Selecionados</h3>
-                <div class="subtitulo-underline"></div>
-                <div class="cols cols-4">
-                    <div class="product">
-                        <img src="./imagens/Racao_KITKAT_70GR-removebg-preview.png" width="161px" alt="">
-                        <p class="product-name">Ração KiteKat</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p class="product-price"><span>R$</span>45,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/racao_premier_adulto-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração Premier Formula</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="product-price"><span>R$</span>130,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/Racao-Golden-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração Golden Formula</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p class="product-price"><span>R$</span>119,99</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/racao_whiskas-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração Whiskas</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="product-price"><span>R$</span>95,00</p>
-                    </div>
-                </div>
+        <div class="page-inner-content">
+          <h3 class="selection-title">Ultimos Produtos</h3>
+          <div class="subtitulo-underline"></div>
+          <div class="cols cols-4">
+            <div class="product">
+              <img
+                src="./imagens/coleira_dog-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Coleira para Dog</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+              <p class="product-price"><span>R$</span>15,00</p>
             </div>
+            <div class="product">
+              <img
+                src="./imagens/Ração_pedigree_filhote-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração Pedigree Filhote</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="product-price"><span>R$</span>55,00</p>
+            </div>
+            <div class="product">
+              <img
+                src="./imagens/racao_para_raca_pequena-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração SpecialDog</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p class="product-price"><span>R$</span>75,00</p>
+            </div>
+            <div class="product">
+              <img
+                src="./imagens/racao-premier-pequena-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração Premier Filhote</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="product-price"><span>R$</span>65,00</p>
+            </div>
+            <div class="product">
+              <img
+                src="./imagens/Ração_para_gato_esterializado-removebg-preview.png"
+                width="217px"
+                alt=""
+              />
+              <p class="product-name">Ração Pro Plan</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p class="product-price"><span>R$</span>80,00</p>
+            </div>
+            <div class="product">
+              <img
+                src="./imagens/Ração_golden_gato-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração Golden Gato</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="product-price"><span>R$</span>110,00</p>
+            </div>
+            <div class="product">
+              <img
+                src="./imagens/ração-gato-special-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração Special Cat</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p class="product-price"><span>R$</span>80,00</p>
+            </div>
+            <div class="product">
+              <img
+                src="./imagens/Ração-golden-seleção_natural-removebg-preview.png"
+                width="216px"
+                alt=""
+              />
+              <p class="product-name">Ração Golden Seleção Natural</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p class="product-price"><span>R$</span>95,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            <div class="page-inner-content">
-                <h3 class="selection-title">Ultimos Produtos</h3>
-                <div class="subtitulo-underline"></div>
-                <div class="cols cols-4">
-                    <div class="product">
-                        <img src="./imagens/coleira_dog-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Coleira para Dog</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                        <p class="product-price"><span>R$</span>15,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/Ração_pedigree_filhote-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração  Pedigree Filhote</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="product-price"><span>R$</span>55,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/racao_para_raca_pequena-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração SpecialDog</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p class="product-price"><span>R$</span>75,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/racao-premier-pequena-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração Premier Filhote</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="product-price"><span>R$</span>65,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/Ração_para_gato_esterializado-removebg-preview.png" width="217px" alt="">
-                        <p class="product-name">Ração Pro Plan</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p class="product-price"><span>R$</span>80,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/Ração_golden_gato-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração Golden Gato</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="product-price"><span>R$</span>110,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/ração-gato-special-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração  Special Cat</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p class="product-price"><span>R$</span>80,00</p>
-                    </div>
-                    <div class="product">
-                        <img src="./imagens/Ração-golden-seleção_natural-removebg-preview.png" width="216px" alt="">
-                        <p class="product-name">Ração Golden Seleção Natural</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p class="product-price"><span>R$</span>95,00</p>
-                    </div>
-                </div>
-            </div>
+      <div class="gray-background">
+        <div class="header-inner-content"></div>
+        <div class="header-bottom-side exclusive-container">
+          <div class="header-bottom-side-left">
+            <h2>Ração afinity</h2>
+            <p>
+              A Ração Premium Especial para Gatos Adultos Castrados sabor Frango
+              e Arroz é o alimento perfeito para seu gato adulto castrado pois
+              ele possue um Baixo Teor Calórico + L-Carnitina que controla o
+              ganho de peso e o Blend de Fibras Especiais que ajudam o controle
+              de bolas de pelos. Controle também o ph da urina dando mais saúde
+              ao trato urinário de seu gato adulto, e o extrato de yucca que
+              reduz o odor das fezes.
+            </p>
+            <button>Ver Agora &#8594;</button>
+          </div>
+          <div class="header-bottom-side-right">
+            <img src="./imagens/racao-affinity-removebg-preview.png" />
+          </div>
         </div>
+      </div>
 
-        <div class="gray-background">
-            <div class="header-inner-content"></div>
-            <div class="header-bottom-side exclusive-container">
-            <div class="header-bottom-side-left">
-                <h2>Ração afinity</h2>
-                <p>A Ração Premium Especial para Gatos Adultos Castrados sabor Frango e Arroz é o alimento perfeito para seu gato adulto castrado pois ele possue um Baixo Teor Calórico + L-Carnitina que controla o ganho de peso e o Blend de Fibras Especiais que ajudam o controle de bolas de pelos. Controle também o ph da urina dando mais saúde ao trato urinário de seu gato adulto, e o extrato de yucca que reduz o odor das fezes.
-                </p>
-                <button>Ver Agora &#8594;</button>
+      <div>
+        <div class="page-inner-content">
+          <div class="testemunhas">
+            <div class="testemunha">
+              <p>"</p>
+              <p>Esse e o melhor website de petshop que ja visitei.</p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p>Alice Maria</p>
             </div>
-            <div class="header-bottom-side-right">
-                <img src="./imagens/racao-affinity-removebg-preview.png">
+            <div class="testemunha">
+              <p>"</p>
+              <p>
+                Adorei esse site vou recomendar para minhas amigas, tambem
+                gostei que esse site e bastante responsivo.
+              </p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p>Thaiany</p>
             </div>
-        </div>
-        </div>
-
-        <div>
-            <div class="page-inner-content">
-                <div class="testemunhas">
-                    <div class="testemunha">
-                        <p>"</p>
-                        <p>Esse e o melhor website de petshop que ja visitei.</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p>Alice Maria</p>
-                    </div>
-                    <div class="testemunha">
-                        <p>"</p>
-                        <p>Adorei esse site vou recomendar para minhas amigas, tambem gostei que esse site e bastante responsivo.</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                        <p>Thaiany</p>
-                    </div>
-                    <div class="testemunha">
-                        <p>"</p>
-                        <p>Gostei muito do estilo desse site achei bem leve assim para uma loja de pet-shop</p>
-                        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                        <p>Alice Maria</p>
-                    </div>
-                </div>
+            <div class="testemunha">
+              <p>"</p>
+              <p>
+                Gostei muito do estilo desse site achei bem leve assim para uma
+                loja de pet-shop
+              </p>
+              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+              <p>Alice Maria</p>
             </div>
+          </div>
         </div>
+      </div>
     </main>
 
     <footer class="gray-background">
-        <div class="page-inner-content footer-content">
-            <div class="donwload-options">
-                <p>Baixe nossa aplicação</p>
-                <p>Baixe nosso aplicativo para Android e iOS</p>
-                <div>
-                    <img src="./imagens/app-store.png" alt="">
-                    <img src="./imagens/play-store.png" alt="">
-                </div>
-            </div>
-            <div class="logo-footer">
-                <h1 class="logo">Pet<span>Store</span></h1>
-                <p>Nosso Objetivo e te ajudar a dar uma vida melhor para o seu pet.</p>
-            </div>
-            <div class="links-footer">
-                <h3>Links uteis</h3>
-                <ul>
-                    <li>Cupons</li>
-                    <li>Blog Post</li>
-                    <li>Politicas</li>
-                </ul>
-            </div>
+      <div class="page-inner-content footer-content">
+        <div class="donwload-options">
+          <p>Baixe nossa aplicação</p>
+          <p>Baixe nosso aplicativo para Android e iOS</p>
+          <div>
+            <img src="./imagens/app-store.png" alt="" />
+            <img src="./imagens/play-store.png" alt="" />
+          </div>
         </div>
+        <div class="logo-footer">
+          <h1 class="logo">Pet<span>Store</span></h1>
+          <p>
+            Nosso Objetivo e te ajudar a dar uma vida melhor para o seu pet.
+          </p>
+        </div>
+        <div class="links-footer">
+          <h3>Links uteis</h3>
+          <ul>
+            <li>Cupons</li>
+            <li>Blog Post</li>
+            <li>Politicas</li>
+          </ul>
+        </div>
+      </div>
     </footer>
-
-</body>
+    <script src="./script/script.js"></script>
+  </body>
 </html>
