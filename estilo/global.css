@@ -176,10 +176,13 @@ header{
         display: block;
     }
 
-    
+    .header-bottom-side-right img{
+        padding: 26px;
+    }
 
-    
-
+    .page-inner-content{
+        padding-left: 60px;
+    }
 
 }
 
@@ -213,6 +216,7 @@ main{
 
 .cols-3 img{
     max-width: 100%;
+    border-radius: 40px;
 }
 
 .cols-4 img{
