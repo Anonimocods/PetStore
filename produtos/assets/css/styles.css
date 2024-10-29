@@ -240,7 +240,6 @@ img {
 
 /*=============== HOME ===============*/
 .home__img img {
-  width: 600px;
   right: 1.5rem;
   top: -15rem;
 }
@@ -849,7 +848,7 @@ img {
     margin-right: auto;
   }
   .home__img {
-    width: 480px;
+    width: 600px;
     top: -15rem;
   }
   .home__title {
