@@ -239,7 +239,8 @@ img {
 }
 
 /*=============== HOME ===============*/
-.home__img img {
+.home__img {
+  max-width: 700px;
   right: 1.5rem;
   top: -15rem;
 }
